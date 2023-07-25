@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400&display=swap');
+@import url('nav-style.css');
+@import url('intro-style.css');
+@import url('about-style.css');
+@import url(coming-soon.css);
+@import url(contact-form.css);
+
+*{
+	margin-left:auto;
+	margin-right:auto;
+}

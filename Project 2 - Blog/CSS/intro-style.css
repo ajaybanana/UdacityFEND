@@ -1,0 +1,64 @@
+/*Code related to the intro blocks*/
+.intro{
+	display:flex;
+	flex-direction: row;
+	margin-top:50px;
+}
+.intro-text{
+	display: flex;
+	margin-right:5px;
+	flex-direction: column;
+}
+.intro-text h1{
+	font-family: "Quicksand";
+	color:#db79aa;
+	font-size:24px;
+	text-align: left;
+}
+.ajay{
+	font-size: 64px;
+	color:#c8327d;
+	font-family:"Pacifico";
+}
+.intro-text p{
+	font-family: "Quicksand";
+	font-size:18px;
+	font-weight:700;
+}
+/*Picture*/
+.intro-pic{
+text-align:center;
+margin-left:5px;
+
+}
+.intro-pic{
+	height:500px;
+	width:500px;
+	border-radius:50%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.intro-pic{
+	height:200px;
+	width:200px;
+}
+.intro-text p{
+	font-size:14px;
+}
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}

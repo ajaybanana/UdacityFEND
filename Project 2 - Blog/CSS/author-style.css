@@ -1,0 +1,23 @@
+.author-info{
+    background-color:rgba(219, 121, 170, 0.514);
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.author-img{
+    height:100px;
+    width:100px;
+    margin:0 auto;
+}
+h4{
+    font-family:"Quicksand";
+    margin-bottom:0;
+}
+h3{
+    font-family: "Pacifico";
+}
+.author-info p{
+    font-family:"Quicksand";
+}

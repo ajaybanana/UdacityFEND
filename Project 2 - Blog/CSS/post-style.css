@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400&display=swap');
+@import url(nav-style.css);
+@import url(author-style.css);
+
+
+/*Main Blog Page*/
+.blog-body{
+	max-width: 1200px;
+	margin: 0 auto;
+	display: grid;
+	gap:1rem;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-column-gap: 17px;
+	grid-row-gap: 24px;
+	padding-top:50px;
+	margin-bottom:20px;
+}
+/*Card Design*/
+.card{
+    width:380px;
+    font-family:"Quicksand";
+    border-radius: 12px ;
+}
+.card-img{
+    border-radius:12px;
+}
+.card-title{
+    text-align: center;
+    font-weight:900;
+    font-size:22px;
+	margin-bottom: 4px;
+	margin-top: 4px;
+}
+.card a{
+	text-decoration: none;
+	color:#4b484a;
+}
+.card p{
+    vertical-align:center;
+}
+.time-icon{
+    height:12px;
+    width:12px;
+}
+.time{
+	display:inline;
+}
+
+.card:hover{
+	color:#868084;
+}
+.card-img:hover{
+	box-shadow: 7px 4px 12px 5px rgba(137, 129, 137, 0.43);
+}
+
+/*Blog Post*/
+.article-head{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	padding-top:50px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+.article-title{
+	font-family:"Pacifico";
+	font-size:64px;
+	margin-bottom:5px;
+	color:#4b484a
+}
+.article-head h2{
+	font-family:"Quicksand";
+	font-size:28px;
+	color:#4b484a;
+	margin-top:5px;
+	font-weight:400;
+}
+article{
+	font-family:"Quicksand";
+	font-size:18px;
+	text-align:center;
+	margin: 0 auto;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.blog-body{
+		grid-template-columns: repeat(1,1fr);
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.blog-body{
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.blog-body{
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.blog-body{
+		grid-template-columns: repeat(3,1fr);
+	}
+}

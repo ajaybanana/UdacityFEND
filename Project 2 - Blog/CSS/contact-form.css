@@ -1,0 +1,55 @@
+/*Form*/
+
+.contact-page h1{
+	text-align: center;
+	font-family:"Pacifico";
+	color:#db79aa;
+	font-size: 48px;
+	text-decoration: underline;
+	text-shadow: 5px -2px 0px rgba(200, 50, 125, 1);
+	letter-spacing: 3px;
+}
+.contact-desc{
+	font-family: "Quicksand";
+	text-align:center;
+	font-size: 20px;
+	font-weight:600;
+	color:#4b484a;
+}
+form{
+	display:flex;
+	flex-direction: column;
+	font-family: "Quicksand";
+
+	
+}
+label{
+	margin-bottom:5px;
+	font-size:18px;
+	display:none;
+	
+}
+input,textarea{
+	width:500px;
+	height:40px;
+	font-family:"Quicksand";
+	margin-bottom:10px;
+	border:none;
+	-webkit-box-shadow: 6px 8px 0px -4px rgba(219,121,170,1);
+-moz-box-shadow: 6px 8px 0px -4px rgba(219,121,170,1);
+box-shadow: 6px 8px 0px -4px rgba(219,121,170,1);
+}
+input[type="submit"]{
+font-weight:700;
+font-size: 16px;
+letter-spacing: 2px;
+margin-bottom:100px;
+}
+input[type="submit"]:hover{
+	font-weight:700;
+	font-size: 16px;
+	letter-spacing: 2px;
+	-webkit-box-shadow: inset 5px 5px 0px 0px rgba(219,121,170,1);
+	-moz-box-shadow: inset 5px 5px 0px 0px rgba(219,121,170,1);
+	box-shadow: inset 5px 5px 0px 0px rgba(219,121,170,1);
+}
