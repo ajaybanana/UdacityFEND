@@ -1,0 +1,54 @@
+    .subscribe{
+        background-color:rgba(219, 121, 170, 0.514);
+        margin: 0 auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .author-img{
+        height:100px;
+        width:100px;
+        margin:0 auto;
+    }
+    h4{
+        font-family:"Quicksand";
+        margin-bottom:0;
+    }
+    h3{
+        font-family: "Pacifico";
+    }
+    .subscribe p{
+        font-family:"Quicksand";
+    }
+    input{
+        width:500px;
+        height:40px;
+        font-family:"Quicksand";
+        margin-bottom:10px;
+        border:none;
+        -webkit-box-shadow: 6px 8px 0px -4px rgba(219,121,170,1);
+         -moz-box-shadow: 6px 8px 0px -4px rgba(219,121,170,1);
+        box-shadow: 6px 8px 0px -4px rgba(219,121,170,1);
+    }
+    button{
+    font-weight:700;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom:10px;
+    width:150px;
+    margin:0 auto;
+    }
+    button:hover{
+        font-weight:700;
+        font-size: 16px;
+        letter-spacing: 2px;
+        box-shadow: 7px 4px 12px 5px rgba(137, 129, 137, 0.43);
+    }
+   .sub-form{
+        display:flex;
+        flex-direction: column;
+        font-family: "Quicksand";
+        margin: 0 auto;
+        
+    }
